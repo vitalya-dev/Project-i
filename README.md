@@ -1,2 +1,2 @@
 # project-i
-General identation mode for emacs
+General identation mode for emacs.
