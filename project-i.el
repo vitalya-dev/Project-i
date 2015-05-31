@@ -22,11 +22,11 @@
     (if (<= current-column  previous-column)
 	(indent-line-to (+ current-column i-indent-offset))
       (indent-line-to 0))))
-	fooo
   
 (defun i-indent-line-function ()
   (i-indent-line (i-previous-line)))
 
+(provide 'project-i)
 
 
 
