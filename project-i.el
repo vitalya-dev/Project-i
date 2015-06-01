@@ -16,17 +16,25 @@
       (- (match-end 0) 1)
     0))
 
+(defun i-indent-line-to (column)
+  (let ((old-column (current-indentation))
+        (old-point (point)))
+    (indent-line-to column)
+    (when (>= old-point (+ (line-beginning-position) old-column))
+      (goto-char (+ old-point (- column old-column))))))
+
 (defun i-indent-line (previous-line)
   (let ((current-column (current-indentation))
 	(previous-column (i-calculate-column previous-line)))
     (if (<= current-column  previous-column)
-	(indent-line-to (+ current-column i-indent-offset))
-      (indent-line-to 0))))
+	(i-indent-line-to (+ current-column i-indent-offset))
+      (i-indent-line-to 0))))
   
 (defun i-indent-line-function ()
   (i-indent-line (i-previous-line)))
 
 (provide 'project-i)
+
 
 
 
