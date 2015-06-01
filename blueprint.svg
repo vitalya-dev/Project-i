@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="-252.48635"
-     inkscape:cy="707.1057"
+     inkscape:zoom="0.7"
+     inkscape:cx="80.052798"
+     inkscape:cy="536.6056"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -106,7 +106,7 @@
          sodipodi:role="line"
          id="tspan3362"
          x="340.78247"
-         y="459.21191">indent-line-to</tspan></text>
+         y="459.21191">i-indent-line-to</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 233.34524,52.311185 65.659915,110.90003"
@@ -163,5 +163,32 @@
          x="111.27207"
          id="tspan3450"
          sodipodi:role="line">V{previous-line}</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.36482418px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 488.57143,475.21935 0,135.71428"
+       id="path3392"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="367.14285"
+       y="670.93365"
+       id="text3394"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3396"
+         x="367.14285"
+         y="670.93365">indent-line-to</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3398"
+       y="567.07269"
+       x="496.48743"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="567.07269"
+         x="496.48743"
+         id="tspan3400"
+         sodipodi:role="line">V{column}</tspan></text>
   </g>
 </svg>
