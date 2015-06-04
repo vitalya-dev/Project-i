@@ -28,8 +28,8 @@ Indent-line-function for emacs.
   3. Thats all.
 
 ## Config
-  1. Change indentation size:
-  ```(setq i-indent-offset indentation-size)```
+  1. Change indentation size (default 2):
+  ```(setq i-indent-size indentation-size)```
 
 ## Usage
   1. Signle tab: ![alt tag](https://raw.githubusercontent.com/vitalya-dev/project-i/master/docs/first_tab.png)

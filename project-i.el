@@ -1,4 +1,4 @@
-(defcustom i-indent-offset 2
+(defcustom i-indent-size 2
   "Default indentation for project-i.")
 
 (defun i-previous-line ()
@@ -27,7 +27,7 @@
   (let ((current-column (current-indentation))
 	(previous-column (i-calculate-column previous-line)))
     (if (<= current-column  previous-column)
-	(i-indent-line-to (+ current-column i-indent-offset))
+	(i-indent-line-to (+ current-column i-indent-size))
       (i-indent-line-to 0))))
   
 (defun i-indent-line-function ()
